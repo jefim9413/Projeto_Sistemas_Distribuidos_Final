@@ -55,13 +55,7 @@ Antes de compilar, certifique-se de que a biblioteca **Gson** (`gson-2.8.9.jar`)
 
 🔹 **Para compilar todos os arquivos do projeto, use o comando abaixo:**  
 ```sh
-javac -cp "libs/gson-2.8.9.jar" -d out \
-src/com/distribuidos/model/Mensagem.java \
-src/com/distribuidos/model/Envelope.java \
-src/com/distribuidos/server/ServidorUDP.java \
-src/com/distribuidos/server/Despachante.java \
-src/com/distribuidos/server/Servente.java \
-src/com/distribuidos/client/ClienteUDP.java
+javac -cp "libs/gson-2.8.9.jar" -d out src/com/distribuidos/model/Mensagem.java src/com/distribuidos/server/ServidorUDP.java src/com/distribuidos/server/Despachante.java src/com/distribuidos/server/Servente.java src/com/distribuidos/model/Envelope.java src/com/distribuidos/client/ClienteUDP.java src/com/distribuidos/model/Mensagem.java
 ```
 
 ### **2️⃣ Iniciar o Servidor**
